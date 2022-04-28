@@ -9,8 +9,11 @@ Animation	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroqua
 AnimationFrame	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/animation.rs	/^pub struct AnimationFrame {$/;"	s
 AnyStorage	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^impl AnyStorage {$/;"	c
 AnyStorage	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^pub(crate) struct AnyStorage {$/;"	s
+Arc	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/proxy.rs	/^    Arc,$/;"	e	enum:ProxyType
 Atlas	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/text/atlas.rs	/^impl Atlas {$/;"	c
 Atlas	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/text/atlas.rs	/^pub struct Atlas {$/;"	s
+AttrRemover	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/attr.rs	/^    impl VisitMut for AttrRemover {$/;"	c	function:remove_our_attrs
+AttrRemover	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/attr.rs	/^    struct AttrRemover;$/;"	s	function:remove_our_attrs
 AudioContext	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/audio.rs	/^    impl AudioContext {$/;"	c	module:dummy_audio
 AudioContext	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/audio.rs	/^    pub struct AudioContext {}$/;"	s	module:dummy_audio
 AudioContext	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/audio.rs	/^impl AudioContext {$/;"	c
@@ -18,12 +21,13 @@ AudioContext	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macro
 Backspace	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/input_handler.rs	/^    Backspace,$/;"	e	enum:KeyCode
 Batcher	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/texture.rs	/^impl Batcher {$/;"	c
 Batcher	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/texture.rs	/^pub(crate) struct Batcher {$/;"	s
+Box	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/proxy.rs	/^    Box,$/;"	e	enum:ProxyType
 Button	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/button.rs	/^impl<'a> Button<'a> {$/;"	c
 Button	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/button.rs	/^pub struct Button<'a> {$/;"	s
-Button	/home/actuday/dev/xando/src/gui/mod.rs	/^impl Button {$/;"	c
-Button	/home/actuday/dev/xando/src/gui/mod.rs	/^impl Widget for Button {$/;"	c
-Button	/home/actuday/dev/xando/src/gui/mod.rs	/^pub struct Button {$/;"	s
-Button	/home/actuday/dev/xando/src/maingame/mod.rs	/^struct Button {$/;"	s
+Button	/home/actuday/dev/xando/src/game/mod.rs	/^struct Button {$/;"	s
+Button	/home/actuday/dev/xando/src/gui/button.rs	/^impl Button {$/;"	c
+Button	/home/actuday/dev/xando/src/gui/button.rs	/^impl Widget for Button {$/;"	c
+Button	/home/actuday/dev/xando/src/gui/button.rs	/^pub struct Button {$/;"	s
 C	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/input_handler.rs	/^    C, \/\/ copy$/;"	e	enum:KeyCode
 CONTEXT	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/lib.rs	/^static mut CONTEXT: Option<Context> = None;$/;"	v
 Camera	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/camera.rs	/^pub trait Camera {$/;"	i
@@ -43,7 +47,7 @@ CameraState	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroq
 Cancelled	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/input.rs	/^    Cancelled,$/;"	e	enum:TouchPhase
 Cell	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^impl Cell {$/;"	c
 Cell	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^struct Cell {$/;"	s
-Cell	/home/actuday/dev/xando/src/maingame/mod.rs	/^struct Cell {$/;"	s
+Cell	/home/actuday/dev/xando/src/game/mod.rs	/^struct Cell {$/;"	s
 Center	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/render/painter.rs	/^    Center,$/;"	e	enum:Alignment
 Char	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/lib.rs	/^    Char {$/;"	e	enum:MiniquadInputEvent
 Char	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/input.rs	/^    Char(char),$/;"	e	enum:Key
@@ -64,6 +68,8 @@ Color	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.
 Color	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/color.rs	/^impl Into<[f32; 4]> for Color {$/;"	c
 Color	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/color.rs	/^impl Into<[u8; 4]> for Color {$/;"	c
 Color	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/color.rs	/^pub struct Color {$/;"	s
+Column	/home/actuday/dev/xando/src/gui/column.rs	/^impl Widget for Column {$/;"	c
+Column	/home/actuday/dev/xando/src/gui/column.rs	/^pub struct Column {$/;"	s
 ComboBox	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/combobox.rs	/^impl<'a, 'b, 'c> ComboBox<'a, 'b, 'c> {$/;"	c
 ComboBox	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/combobox.rs	/^pub struct ComboBox<'a, 'b, 'c> {$/;"	s
 Command	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/editbox/text_editor.rs	/^trait Command {$/;"	i
@@ -130,6 +136,9 @@ FileError	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroqua
 FileLoadingFuture	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/exec.rs	/^impl Future for FileLoadingFuture {$/;"	c
 FileLoadingFuture	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/exec.rs	/^pub struct FileLoadingFuture {$/;"	s
 FileResult	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/exec.rs	/^type FileResult<T> = Result<T, crate::file::FileError>;$/;"	t
+Fn	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/proxy.rs	/^    Fn,$/;"	e	enum:ProxyType
+FnMut	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/proxy.rs	/^    FnMut,$/;"	e	enum:ProxyType
+FnOnce	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/proxy.rs	/^    FnOnce,$/;"	e	enum:ProxyType
 Font	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/text.rs	/^impl Default for Font {$/;"	c
 Font	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/text.rs	/^impl Font {$/;"	c
 Font	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/text.rs	/^pub struct Font(usize);$/;"	s
@@ -148,8 +157,8 @@ FrameFuture	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroq
 FrameFuture	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/exec.rs	/^pub struct FrameFuture {$/;"	s
 Free	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/cursor.rs	/^    Free(Vec2),$/;"	e	enum:Layout
 Game	/home/actuday/dev/xando/src/main.rs	/^    Game,$/;"	e	enum:UIMode
-GameState	/home/actuday/dev/xando/src/maingame/mod.rs	/^impl GameState {$/;"	c
-GameState	/home/actuday/dev/xando/src/maingame/mod.rs	/^pub struct GameState {$/;"	s
+GameState	/home/actuday/dev/xando/src/game/mod.rs	/^impl GameState {$/;"	c
+GameState	/home/actuday/dev/xando/src/game/mod.rs	/^pub struct GameState {$/;"	s
 Geometry	/home/actuday/dev/xando/src/gui/mod.rs	/^impl Geometry {$/;"	c
 Geometry	/home/actuday/dev/xando/src/gui/mod.rs	/^pub struct Geometry {$/;"	s
 GlPipeline	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^pub struct GlPipeline(usize);$/;"	s
@@ -171,6 +180,8 @@ Home	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3
 Horizontal	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/cursor.rs	/^    Horizontal,$/;"	e	enum:Layout
 Id	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^struct Id {$/;"	s
 Id	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^pub type Id = u64;$/;"	t
+IdentCollector	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/analyze.rs	/^    impl<'ast> Visit<'ast> for IdentCollector<'ast> {$/;"	c	function:find_suitable_param_names
+IdentCollector	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/analyze.rs	/^    struct IdentCollector<'ast> {$/;"	s	function:find_suitable_param_names
 Image	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/texture.rs	/^impl Image {$/;"	c
 Image	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/texture.rs	/^impl std::fmt::Debug for Image {$/;"	c
 Image	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/texture.rs	/^pub struct Image {$/;"	s
@@ -193,6 +204,7 @@ InsertString	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macro
 InternalGlContext	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/window.rs	/^impl<'a> InternalGlContext<'a> {$/;"	c
 InternalGlContext	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/window.rs	/^pub struct InternalGlContext<'a> {$/;"	s
 Item	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^    type Item = RefMutAny<'static>;$/;"	t	implementation:MagicVecIterator
+KeepDefaultFor	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/attr.rs	/^    KeepDefaultFor(Vec<ProxyType>),$/;"	e	enum:OurAttr
 Key	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/input.rs	/^pub enum Key {$/;"	g
 KeyCode	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/input.rs	/^    KeyCode(KeyCode),$/;"	e	enum:Key
 KeyCode	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/input_handler.rs	/^pub enum KeyCode {$/;"	g
@@ -239,18 +251,21 @@ MouseButtonUp	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macr
 MouseMotion	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/lib.rs	/^    MouseMotion {$/;"	e	enum:MiniquadInputEvent
 MouseWheel	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/lib.rs	/^    MouseWheel {$/;"	e	enum:MiniquadInputEvent
 Moved	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/input.rs	/^    Moved,$/;"	e	enum:TouchPhase
+Mut	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/gen.rs	/^    Mut,$/;"	e	enum:SelfType
 No	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    No,$/;"	e	enum:Drag
 Node	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^pub trait Node {$/;"	i
 NodeAny	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^trait NodeAny: Any + Node {$/;"	i
 NodeTyped	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^trait NodeTyped<T> {$/;"	i
 NodeWith	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^pub struct NodeWith<T> {$/;"	s
+None	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/gen.rs	/^    None,$/;"	e	enum:SelfType
 None	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/editbox/text_editor.rs	/^    None,$/;"	e	enum:ClickState
 Num	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/drag.rs	/^pub trait Num:$/;"	i
-O	/home/actuday/dev/xando/src/maingame/mod.rs	/^    O,$/;"	e	enum:PlayerState
+O	/home/actuday/dev/xando/src/game/mod.rs	/^    O,$/;"	e	enum:PlayerState
 ONCE	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/lib.rs	/^    pub static ONCE: std::sync::Once = std::sync::Once::new();$/;"	v	module:test
 OnEndFn	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/state_machine.rs	/^type OnEndFn<T> = Box<dyn FnMut(&mut scene::RefMut<T>)>;$/;"	t
 Orthographics	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/camera.rs	/^    Orthographics,$/;"	e	enum:Projection
 Other	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^                Other,$/;"	e	enum:TabSelector::register_selectable_widget::PressedTabKey
+OurAttr	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/attr.rs	/^pub(crate) enum OurAttr {$/;"	g
 Output	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/exec.rs	/^    type Output = ();$/;"	t	implementation:FrameFuture
 Output	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/exec.rs	/^    type Output = FileResult<Vec<u8>>;$/;"	t	implementation:FileLoadingFuture
 Output	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/coroutines.rs	/^        type Output = ();$/;"	t	module:tweens
@@ -264,7 +279,7 @@ PipelineExt	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroq
 PipelinesStorage	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^impl PipelinesStorage {$/;"	c
 PipelinesStorage	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^struct PipelinesStorage {$/;"	s
 PlaySoundParams	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/audio.rs	/^pub struct PlaySoundParams {$/;"	s
-PlayerState	/home/actuday/dev/xando/src/maingame/mod.rs	/^pub enum PlayerState {$/;"	g
+PlayerState	/home/actuday/dev/xando/src/game/mod.rs	/^pub enum PlayerState {$/;"	g
 Popup	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/popup.rs	/^impl Popup {$/;"	c
 Popup	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/popup.rs	/^pub struct Popup {$/;"	s
 PreprocessorConfig	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/material.rs	/^    impl Default for PreprocessorConfig {$/;"	c	module:shaders
@@ -274,13 +289,19 @@ PressedTabKey	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macr
 Profiler	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/telemetry.rs	/^impl Profiler {$/;"	c
 Profiler	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/telemetry.rs	/^struct Profiler {$/;"	s
 Projection	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/camera.rs	/^pub enum Projection {$/;"	g
+ProxyType	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/proxy.rs	/^impl ProxyType {$/;"	c
+ProxyType	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/proxy.rs	/^pub(crate) enum ProxyType {$/;"	g
 QuadGl	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^impl QuadGl {$/;"	c
 QuadGl	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^pub struct QuadGl {$/;"	s
+Rc	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/proxy.rs	/^    Rc,$/;"	e	enum:ProxyType
 Ready	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/state_machine.rs	/^    Ready(StateMachineOwned<T>),$/;"	e	enum:StateMachine
 Rect	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/math/rect.rs	/^impl Rect {$/;"	c
 Rect	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/math/rect.rs	/^pub struct Rect {$/;"	s
 RectOffset	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/math/rect.rs	/^impl RectOffset {$/;"	c
 RectOffset	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/math/rect.rs	/^pub struct RectOffset {$/;"	s
+Ref	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/gen.rs	/^    Ref,$/;"	e	enum:SelfType
+Ref	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/proxy.rs	/^    Ref,$/;"	e	enum:ProxyType
+RefMut	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/proxy.rs	/^    RefMut,$/;"	e	enum:ProxyType
 RefMut	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^impl<T: 'static> Drop for RefMut<T> {$/;"	c
 RefMut	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^impl<T: 'static> RefMut<T> {$/;"	c
 RefMut	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^impl<T> std::ops::Deref for RefMut<T> {$/;"	c
@@ -294,8 +315,9 @@ RefMutAny	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroqua
 RenderTarget	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/texture.rs	/^impl RenderTarget {$/;"	c
 RenderTarget	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/texture.rs	/^pub struct RenderTarget {$/;"	s
 Right	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/input_handler.rs	/^    Right,$/;"	e	enum:KeyCode
-Row	/home/actuday/dev/xando/src/gui/mod.rs	/^impl Widget for Row {$/;"	c
-Row	/home/actuday/dev/xando/src/gui/mod.rs	/^pub struct Row {$/;"	s
+Row	/home/actuday/dev/xando/src/gui/row.rs	/^impl Row {$/;"	c
+Row	/home/actuday/dev/xando/src/gui/row.rs	/^impl Widget for Row {$/;"	c
+Row	/home/actuday/dev/xando/src/gui/row.rs	/^pub struct Row {$/;"	s
 SCENE	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^static mut SCENE: Option<Scene> = None;$/;"	v
 STORAGE	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/collections/storage.rs	/^static mut STORAGE: Option<HashMap<TypeId, Box<dyn Any>>> = None;$/;"	v
 Scene	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^impl Scene {$/;"	c
@@ -307,6 +329,8 @@ Selected	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad
 SelectingChars	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/editbox/text_editor.rs	/^    SelectingChars { selection_begin: u32 },$/;"	e	enum:ClickState
 SelectingLines	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/editbox/text_editor.rs	/^    SelectingLines { selected_line: (u32, u32) },$/;"	e	enum:ClickState
 SelectingWords	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/editbox/text_editor.rs	/^    SelectingWords { selected_word: (u32, u32) },$/;"	e	enum:ClickState
+SelfType	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/gen.rs	/^enum SelfType {$/;"	g
+SelfType	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/gen.rs	/^impl SelfType {$/;"	c
 ShiftTab	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^                ShiftTab,$/;"	e	enum:TabSelector::register_selectable_widget::PressedTabKey
 Skin	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/style.rs	/^impl Skin {$/;"	c
 Skin	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/style.rs	/^pub struct Skin {$/;"	s
@@ -392,10 +416,12 @@ UiContext	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroqua
 UiContext	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    pub(crate) struct UiContext {$/;"	s	module:ui_context
 Uniform	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^struct Uniform {$/;"	s
 Uniforms	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^    pub struct Uniforms {}$/;"	s	module:snapshotter_shader
-Unset	/home/actuday/dev/xando/src/maingame/mod.rs	/^    Unset,$/;"	e	enum:PlayerState
+Unset	/home/actuday/dev/xando/src/game/mod.rs	/^    Unset,$/;"	e	enum:PlayerState
 Up	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/input_handler.rs	/^    Up,$/;"	e	enum:KeyCode
 UpdateFn	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/state_machine.rs	/^type UpdateFn<T> = Box<dyn FnMut(&mut scene::RefMut<T>, f32)>;$/;"	t
 V	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/input_handler.rs	/^    V, \/\/ paste$/;"	e	enum:KeyCode
+Value	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/gen.rs	/^    Value,$/;"	e	enum:SelfType
+Vector2	/home/actuday/dev/xando/src/gui/mod.rs	/^impl Vector2 {$/;"	c
 Vector2	/home/actuday/dev/xando/src/gui/mod.rs	/^pub struct Vector2 {$/;"	s
 Vertex	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/models.rs	/^pub struct Vertex {$/;"	s
 Vertex	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^impl Into<VertexInterop> for Vertex {$/;"	c
@@ -421,7 +447,7 @@ WindowContext	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macr
 WindowToken	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/window.rs	/^impl WindowToken {$/;"	c
 WindowToken	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/window.rs	/^pub struct WindowToken;$/;"	s
 X	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/input_handler.rs	/^    X, \/\/ cut$/;"	e	enum:KeyCode
-X	/home/actuday/dev/xando/src/maingame/mod.rs	/^    X,$/;"	e	enum:PlayerState
+X	/home/actuday/dev/xando/src/game/mod.rs	/^    X,$/;"	e	enum:PlayerState
 Y	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/input_handler.rs	/^    Y, \/\/ redo$/;"	e	enum:KeyCode
 Z	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/input_handler.rs	/^    Z, \/\/ undo$/;"	e	enum:KeyCode
 Zone	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/telemetry.rs	/^impl Zone {$/;"	c
@@ -456,6 +482,7 @@ advance	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-
 alignment	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/render/painter.rs	/^    pub alignment: Alignment,$/;"	m	struct:LabelParams
 all_nodes	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^pub fn all_nodes() -> MagicVecIterator {$/;"	f
 allocated_memory	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^pub(crate) fn allocated_memory() -> usize {$/;"	f
+analyze	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/lib.rs	/^mod analyze;$/;"	n
 animation	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental.rs	/^pub mod animation;$/;"	n
 animations	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/animation.rs	/^    animations: Vec<Animation>,$/;"	m	struct:AnimatedSprite
 any_map	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^    any_map: std::collections::HashMap<std::any::TypeId, Vec<(HandleUntyped, *mut u8)>>,$/;"	m	struct:Scene
@@ -471,6 +498,7 @@ as_any	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0
 as_any	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^    fn as_any(&self) -> &dyn Any;$/;"	P	interface:NodeAny
 as_any_mut	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^    fn as_any_mut(&mut self) -> &mut dyn Any {$/;"	P	implementation:T
 as_any_mut	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^    fn as_any_mut(&mut self) -> &mut dyn Any;$/;"	P	interface:NodeAny
+as_str	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/gen.rs	/^    fn as_str(&self) -> Option<&'static str> {$/;"	P	implementation:SelfType
 as_trait	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^    pub fn as_trait<T1: ?Sized>(&self) {}$/;"	P	implementation:Handle
 ascent	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/text.rs	/^    pub(crate) fn ascent(&self, font_size: f32) -> f32 {$/;"	P	implementation:FontInternal
 ascii_character_list	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/text.rs	/^    pub fn ascii_character_list() -> Vec<char> {$/;"	P	implementation:Font
@@ -480,8 +508,10 @@ atlas	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.
 atlas	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/texture.rs	/^    atlas: crate::text::atlas::Atlas,$/;"	m	struct:Batcher
 atlas	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    pub(crate) atlas: Rc<RefCell<Atlas>>,$/;"	m	struct:Ui
 atlas	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/style.rs	/^    atlas: Rc<RefCell<Atlas>>,$/;"	m	struct:StyleBuilder
+attr	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/lib.rs	/^mod attr;$/;"	n
 audio	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/lib.rs	/^pub mod audio;$/;"	n
 audio_context	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/lib.rs	/^    audio_context: audio::AudioContext,$/;"	m	struct:Context
+auto_impl	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/lib.rs	/^pub fn auto_impl(args: TokenStream, input: TokenStream) -> TokenStream {$/;"	f
 b	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/color.rs	/^    pub b: f32,$/;"	m	struct:Color
 background	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/style.rs	/^    background: Option<Image>,$/;"	m	struct:StyleBuilder
 background	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/style.rs	/^    pub fn background(self, background: Image) -> StyleBuilder {$/;"	P	implementation:StyleBuilder
@@ -513,10 +543,16 @@ bottom	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0
 bottom	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/math/rect.rs	/^    pub fn bottom(&self) -> f32 {$/;"	P	implementation:Rect
 break_batching	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^    break_batching: bool,$/;"	m	struct:GlState
 build	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/style.rs	/^    pub fn build(self) -> Style {$/;"	P	implementation:StyleBuilder
+build	/home/actuday/dev/xando/src/gui/button.rs	/^    fn build(&mut self, geometry: &Geometry) -> Vector2 {$/;"	P	implementation:Button
+build	/home/actuday/dev/xando/src/gui/column.rs	/^    fn build(&mut self, geometry: &Geometry) -> Vector2 {$/;"	P	implementation:Column
+build	/home/actuday/dev/xando/src/gui/mod.rs	/^    fn build(&mut self, geometry: &Geometry) -> Vector2;$/;"	P	interface:Widget
+build	/home/actuday/dev/xando/src/gui/mod.rs	/^    pub fn build(&mut self) {$/;"	P	implementation:UIRoot
+build	/home/actuday/dev/xando/src/gui/row.rs	/^    fn build(&mut self, geometry: &Geometry) -> Vector2 {$/;"	P	implementation:Row
 build_textures_atlas	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/texture.rs	/^pub fn build_textures_atlas() {$/;"	f
 button	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets.rs	/^mod button;$/;"	n
 button	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/button.rs	/^    pub fn button<'a, P: Into<Option<Vec2>>, S: Into<UiContent<'a>>>($/;"	P	implementation:Ui
-button	/home/actuday/dev/xando/src/maingame/mod.rs	/^    button: Button,$/;"	m	struct:Cell
+button	/home/actuday/dev/xando/src/game/mod.rs	/^    button: Button,$/;"	m	struct:Cell
+button	/home/actuday/dev/xando/src/gui/mod.rs	/^pub mod button;$/;"	n
 button_style	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/style.rs	/^    pub button_style: Style,$/;"	m	struct:Skin
 byte_offset	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^    byte_offset: usize,$/;"	m	struct:Uniform
 bytes	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/texture.rs	/^    pub bytes: Vec<u8>,$/;"	m	struct:Image
@@ -545,10 +581,11 @@ capture	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-
 capture_frame	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/telemetry.rs	/^pub fn capture_frame() {$/;"	f
 capture_request	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/telemetry.rs	/^    capture_request: bool,$/;"	m	struct:Profiler
 cartesian_to_polar	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/math.rs	/^pub fn cartesian_to_polar(cartesian: Vec2) -> Vec2 {$/;"	f
-cells	/home/actuday/dev/xando/src/maingame/mod.rs	/^    cells: Vec<Cell>,$/;"	m	struct:GameState
+cells	/home/actuday/dev/xando/src/game/mod.rs	/^    cells: Vec<Cell>,$/;"	m	struct:GameState
 char_event	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/lib.rs	/^    fn char_event(&mut self, character: char, modifiers: KeyMods, repeat: bool) {$/;"	P	implementation:Stage
 char_event	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    fn char_event(&mut self, character: char, shift: bool, ctrl: bool) {$/;"	P	implementation:Ui
 char_event	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/input_handler.rs	/^    fn char_event(&mut self, character: char, shift: bool, ctrl: bool);$/;"	P	interface:InputHandler
+char_to_ident	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/analyze.rs	/^    fn char_to_ident(c: u8) -> Ident {$/;"	f	function:find_suitable_param_names
 character	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/editbox/text_editor.rs	/^    character: char,$/;"	m	struct:DeleteCharacter
 character	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/editbox/text_editor.rs	/^    character: char,$/;"	m	struct:InsertCharacter
 character_advance	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/render/painter.rs	/^    pub fn character_advance(&self, character: char, font: &FontInternal, font_size: u16) -> f32/;"	P	implementation:Painter
@@ -556,17 +593,20 @@ character_this_frame	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec8
 characters	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/text.rs	/^    characters: HashMap<(char, u16), CharacterInfo>,$/;"	m	struct:FontInternal
 chars_pressed_queue	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/lib.rs	/^    chars_pressed_queue: Vec<char>,$/;"	m	struct:Context
 chars_pressed_ui_queue	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/lib.rs	/^    chars_pressed_ui_queue: Vec<char>,$/;"	m	struct:Context
-check_column	/home/actuday/dev/xando/src/maingame/mod.rs	/^    fn check_column(&mut self) -> bool {$/;"	P	implementation:GameState
-check_diagonal	/home/actuday/dev/xando/src/maingame/mod.rs	/^    fn check_diagonal(&mut self) -> bool {$/;"	P	implementation:GameState
-check_if_over	/home/actuday/dev/xando/src/maingame/mod.rs	/^    pub fn check_if_over(&mut self) -> bool {$/;"	P	implementation:GameState
-check_row	/home/actuday/dev/xando/src/maingame/mod.rs	/^    fn check_row(&mut self) -> bool {$/;"	P	implementation:GameState
+check_column	/home/actuday/dev/xando/src/game/mod.rs	/^    fn check_column(&mut self) -> bool {$/;"	P	implementation:GameState
+check_diagonal	/home/actuday/dev/xando/src/game/mod.rs	/^    fn check_diagonal(&mut self) -> bool {$/;"	P	implementation:GameState
+check_if_over	/home/actuday/dev/xando/src/game/mod.rs	/^    pub fn check_if_over(&mut self) -> bool {$/;"	P	implementation:GameState
+check_receiver_compatible	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/gen.rs	/^fn check_receiver_compatible($/;"	f
+check_row	/home/actuday/dev/xando/src/game/mod.rs	/^    fn check_row(&mut self) -> bool {$/;"	P	implementation:GameState
 checkbox	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets.rs	/^mod checkbox;$/;"	n
 checkbox	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/checkbox.rs	/^    pub fn checkbox(&mut self, id: Id, label: &str, data: &mut bool) {$/;"	P	implementation:Ui
 checkbox_style	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/style.rs	/^    pub checkbox_style: Style,$/;"	m	struct:Skin
 child	/home/actuday/dev/xando/src/gui/mod.rs	/^    child: Box<dyn Widget>,$/;"	m	struct:UIRoot
 child_window_stack	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    child_window_stack: Vec<Id>,$/;"	m	struct:Ui
 children	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/telemetry.rs	/^    pub children: Vec<Zone>,$/;"	m	struct:Zone
-children	/home/actuday/dev/xando/src/gui/mod.rs	/^    children: Vec<Box<dyn Widget>>,$/;"	m	struct:Row
+children	/home/actuday/dev/xando/src/gui/column.rs	/^    children: Vec<Box<dyn Widget>>,$/;"	m	struct:Column
+children	/home/actuday/dev/xando/src/gui/row.rs	/^    children: Vec<Box<dyn Widget>>,$/;"	m	struct:Row
+children	/home/actuday/dev/xando/src/gui/row.rs	/^    pub fn children(self, children: Vec<Box<dyn Widget>>) -> Self {$/;"	P	implementation:Row
 childs	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    pub childs: Vec<Id>,$/;"	m	struct:Window
 circle	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/math.rs	/^mod circle;$/;"	n
 clamp	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/math.rs	/^pub fn clamp<T: PartialOrd>(value: T, min: T, max: T) -> T {$/;"	f
@@ -619,8 +659,9 @@ color	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.
 color	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/style.rs	/^    pub fn color(self, color: Color) -> StyleBuilder {$/;"	P	implementation:StyleBuilder
 color	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/style.rs	/^    pub(crate) color: Color,$/;"	m	struct:Style
 color	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/style.rs	/^    pub(crate) fn color(&self, element_state: ElementState) -> Color {$/;"	P	implementation:Style
-color	/home/actuday/dev/xando/src/gui/mod.rs	/^    color: Color,$/;"	m	struct:Button
-color	/home/actuday/dev/xando/src/maingame/mod.rs	/^    color: Color,$/;"	m	struct:Button
+color	/home/actuday/dev/xando/src/game/mod.rs	/^    color: Color,$/;"	m	struct:Button
+color	/home/actuday/dev/xando/src/gui/button.rs	/^    color: Color,$/;"	m	struct:Button
+color	/home/actuday/dev/xando/src/gui/button.rs	/^    pub fn color(self, color: Color) -> Self {$/;"	P	implementation:Button
 color_clicked	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/style.rs	/^    color_clicked: Color,$/;"	m	struct:StyleBuilder
 color_clicked	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/style.rs	/^    pub fn color_clicked(self, color_clicked: Color) -> StyleBuilder {$/;"	P	implementation:StyleBuilder
 color_clicked	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/style.rs	/^    pub(crate) color_clicked: Color,$/;"	m	struct:Style
@@ -659,7 +700,7 @@ coroutines	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroqu
 coroutines_context	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/lib.rs	/^    coroutines_context: experimental::coroutines::CoroutinesContext,$/;"	m	struct:Context
 counter	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/lib.rs	/^    counter: usize,$/;"	m	struct:Context
 counter	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    counter: isize,$/;"	m	struct:TabSelector
-curr_player	/home/actuday/dev/xando/src/maingame/mod.rs	/^    pub curr_player: PlayerState,$/;"	m	struct:GameState
+curr_player	/home/actuday/dev/xando/src/game/mod.rs	/^    pub curr_player: PlayerState,$/;"	m	struct:GameState
 current_animation	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/animation.rs	/^    current_animation: usize,$/;"	m	struct:AnimatedSprite
 current_animation	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/animation.rs	/^    pub fn current_animation(&self) -> usize {$/;"	P	implementation:AnimatedSprite
 current_click	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/editbox/text_editor.rs	/^    pub current_click: u32,$/;"	m	struct:EditboxState
@@ -751,11 +792,12 @@ draw	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3
 draw	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/lib.rs	/^    fn draw(&mut self) {$/;"	P	implementation:Stage
 draw	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^    pub fn draw(&mut self, ctx: &mut miniquad::Context, projection: glam::Mat4) {$/;"	P	implementation:QuadGl
 draw	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^        pub(crate) fn draw(&mut self, _ctx: &mut miniquad::Context, quad_gl: &mut QuadGl) {$/;"	P	implementation:ui_context::UiContext
-draw	/home/actuday/dev/xando/src/gui/mod.rs	/^    fn draw(&self) {$/;"	P	implementation:Button
-draw	/home/actuday/dev/xando/src/gui/mod.rs	/^    fn draw(&self) {$/;"	P	implementation:Row
+draw	/home/actuday/dev/xando/src/game/mod.rs	/^    pub fn draw(&self) {$/;"	P	implementation:GameState
+draw	/home/actuday/dev/xando/src/gui/button.rs	/^    fn draw(&self) {$/;"	P	implementation:Button
+draw	/home/actuday/dev/xando/src/gui/column.rs	/^    fn draw(&self) {$/;"	P	implementation:Column
 draw	/home/actuday/dev/xando/src/gui/mod.rs	/^    fn draw(&self);$/;"	P	interface:Widget
 draw	/home/actuday/dev/xando/src/gui/mod.rs	/^    pub fn draw(&self) {$/;"	P	implementation:UIRoot
-draw	/home/actuday/dev/xando/src/maingame/mod.rs	/^    pub fn draw(&self) {$/;"	P	implementation:GameState
+draw	/home/actuday/dev/xando/src/gui/row.rs	/^    fn draw(&self) {$/;"	P	implementation:Row
 draw_calls	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^    draw_calls: Vec<DrawCall>,$/;"	m	struct:QuadGl
 draw_calls_bindings	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^    draw_calls_bindings: Vec<Bindings>,$/;"	m	struct:QuadGl
 draw_calls_count	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^    draw_calls_count: usize,$/;"	m	struct:QuadGl
@@ -815,6 +857,7 @@ drop	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3
 drop	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/telemetry.rs	/^    fn drop(&mut self) {$/;"	P	implementation:ZoneGuard
 dummy_audio	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/audio.rs	/^mod dummy_audio {$/;"	n
 duration	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/telemetry.rs	/^    pub duration: f64,$/;"	m	struct:Zone
+eat_type	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/proxy.rs	/^fn eat_type(iter: &mut Peekable<token_stream::IntoIter>) -> Result<ProxyType, ()> {$/;"	f
 editbox	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets.rs	/^mod editbox;$/;"	n
 editbox	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/editbox.rs	/^    pub fn editbox(&mut self, id: Id, size: Vec2, text: &mut String) -> bool {$/;"	P	implementation:Ui
 editbox_style	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/style.rs	/^    pub editbox_style: Style,$/;"	m	struct:Skin
@@ -853,6 +896,7 @@ find_line_end	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macr
 find_node_by_type	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^pub fn find_node_by_type<T: Any>() -> Option<RefMut<T>> {$/;"	f
 find_nodes_by_type	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^pub fn find_nodes_by_type<T: Any>() -> impl Iterator<Item = RefMut<T>> {$/;"	f
 find_nodes_with	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^pub fn find_nodes_with<T: Any + Copy>() -> impl Iterator<Item = NodeWith<T>> {$/;"	f
+find_suitable_param_names	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/analyze.rs	/^pub(crate) fn find_suitable_param_names(trait_def: &ItemTrait) -> (Ident, Lifetime) {$/;"	f
 find_word_begin	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/editbox/text_editor.rs	/^    pub fn find_word_begin(&self, text: &str, cursor: u32) -> u32 {$/;"	P	implementation:EditboxState
 find_word_end	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/editbox/text_editor.rs	/^    pub fn find_word_end(&self, text: &str, cursor: u32) -> u32 {$/;"	P	implementation:EditboxState
 fit	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/cursor.rs	/^    pub fn fit(&mut self, size: Vec2, mut layout: Layout) -> Vec2 {$/;"	P	implementation:Cursor
@@ -917,17 +961,30 @@ from_image	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroqu
 from_miniquad_texture	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/texture.rs	/^    pub fn from_miniquad_texture(texture: miniquad::Texture) -> Texture2D {$/;"	P	implementation:Texture2D
 from_rgba	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/color.rs	/^    pub fn from_rgba(r: u8, g: u8, b: u8, a: u8) -> Color {$/;"	P	implementation:Color
 from_rgba8	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/texture.rs	/^    pub fn from_rgba8(width: u16, height: u16, bytes: &[u8]) -> Texture2D {$/;"	P	implementation:Texture2D
+from_sig	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/gen.rs	/^    fn from_sig(sig: &Signature) -> Self {$/;"	P	implementation:SelfType
 from_vec	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/color.rs	/^    pub fn from_vec(vec: glam::Vec4) -> Self {$/;"	P	implementation:Color
 full_frame_time	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/telemetry.rs	/^    pub full_frame_time: f32,$/;"	m	struct:Frame
 full_rect	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    pub fn full_rect(&self) -> Rect {$/;"	P	implementation:Window
 future	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/coroutines.rs	/^    future: Pin<Box<dyn Future<Output = ()>>>,$/;"	m	struct:CoroutineInternal
 g	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/color.rs	/^    pub g: f32,$/;"	m	struct:Color
+game	/home/actuday/dev/xando/src/main.rs	/^mod game;$/;"	n
+gen	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/lib.rs	/^mod gen;$/;"	n
+gen_const_item	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/gen.rs	/^fn gen_const_item($/;"	f
+gen_fn_type_for_trait	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/gen.rs	/^fn gen_fn_type_for_trait(proxy_type: &ProxyType, trait_def: &ItemTrait) -> TokenStream2 {$/;"	f
+gen_header	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/gen.rs	/^fn gen_header($/;"	f
 gen_image_color	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/texture.rs	/^    pub fn gen_image_color(width: u16, height: u16, color: Color) -> Image {$/;"	P	implementation:Image
+gen_impls	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/gen.rs	/^pub(crate) fn gen_impls(proxy_types: &[ProxyType], trait_def: &syn::ItemTrait) -> TokenStream2 {$/;"	f
+gen_items	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/gen.rs	/^fn gen_items($/;"	f
+gen_method_item	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/gen.rs	/^fn gen_method_item($/;"	f
+gen_type_item	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/gen.rs	/^fn gen_type_item($/;"	f
 generation	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^    generation: u64,$/;"	m	struct:Id
 geometry	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^    pub fn geometry(&mut self, vertices: &[impl Into<VertexInterop> + Copy], indices: &[u16]) {$/;"	P	implementation:QuadGl
-geometry	/home/actuday/dev/xando/src/gui/mod.rs	/^    geometry: Geometry,$/;"	m	struct:Button
-geometry	/home/actuday/dev/xando/src/gui/mod.rs	/^    geometry: Geometry,$/;"	m	struct:Row
+geometry	/home/actuday/dev/xando/src/gui/button.rs	/^    geometry: Geometry,$/;"	m	struct:Button
+geometry	/home/actuday/dev/xando/src/gui/button.rs	/^    pub fn geometry(self, geometry: Geometry) -> Self {$/;"	P	implementation:Button
+geometry	/home/actuday/dev/xando/src/gui/column.rs	/^    geometry: Geometry,$/;"	m	struct:Column
 geometry	/home/actuday/dev/xando/src/gui/mod.rs	/^    geometry: Geometry,$/;"	m	struct:UIRoot
+geometry	/home/actuday/dev/xando/src/gui/row.rs	/^    geometry: Geometry,$/;"	m	struct:Row
+geometry	/home/actuday/dev/xando/src/gui/row.rs	/^    pub fn geometry(self, geometry: Geometry) -> Self {$/;"	P	implementation:Row
 get	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/collections/storage.rs	/^pub fn get<T: Any>() -> impl Deref<Target = T> {$/;"	f
 get	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^    pub fn get(&mut self) -> Option<&mut T> {$/;"	P	implementation:Lens
 get	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^    pub fn get<T>(&mut self, handle: Handle<T>) -> Option<RefMut<T>> {$/;"	P	implementation:Scene
@@ -942,9 +999,11 @@ get_active_render_pass	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9e
 get_active_window_context	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    pub(crate) fn get_active_window_context(&mut self) -> WindowContext {$/;"	P	implementation:Ui
 get_any	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^    pub fn get_any(&mut self, handle: HandleUntyped) -> Option<RefMutAny> {$/;"	P	implementation:Scene
 get_any	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    pub fn get_any<T: std::any::Any + Default>(&mut self, id: Id) -> &mut T {$/;"	P	implementation:Ui
+get_arg_list	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/gen.rs	/^fn get_arg_list<'a>(inputs: impl Iterator<Item = &'a FnArg>) -> TokenStream2 {$/;"	f
 get_bool	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    pub fn get_bool(&mut self, id: Id) -> &mut bool {$/;"	P	implementation:Ui
 get_char_pressed	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/input.rs	/^pub fn get_char_pressed() -> Option<char> {$/;"	f
 get_char_pressed_ui	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/input.rs	/^pub(crate) fn get_char_pressed_ui() -> Option<char> {$/;"	f
+get_color	/home/actuday/dev/xando/src/gui/button.rs	/^    pub fn get_color(&self) -> Color {$/;"	P	implementation:Button
 get_context	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/lib.rs	/^fn get_context() -> &'static mut Context {$/;"	f
 get_font_mut	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/text.rs	/^    fn get_font_mut(&mut self, font: Font) -> &mut FontInternal {$/;"	P	implementation:FontsStorage
 get_fps	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/time.rs	/^pub fn get_fps() -> i32 {$/;"	f
@@ -952,6 +1011,7 @@ get_frame_time	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/mac
 get_image_data	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/texture.rs	/^    pub fn get_image_data(&self) -> &[[u8; 4]] {$/;"	P	implementation:Image
 get_image_data_mut	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/texture.rs	/^    pub fn get_image_data_mut(&mut self) -> &mut [[u8; 4]] {$/;"	P	implementation:Image
 get_internal_gl	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/window.rs	/^pub unsafe fn get_internal_gl<'a>() -> InternalGlContext<'a> {$/;"	f
+get_is_disabled	/home/actuday/dev/xando/src/gui/button.rs	/^    pub fn get_is_disabled(&self) -> bool {$/;"	P	implementation:Button
 get_last_key_pressed	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/input.rs	/^pub fn get_last_key_pressed() -> Option<KeyCode> {$/;"	f
 get_mut	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/collections/storage.rs	/^pub fn get_mut<T: Any>() -> impl DerefMut<Target = T> {$/;"	f
 get_node	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^pub fn get_node<T: Node>(handle: Handle<T>) -> RefMut<T> {$/;"	f
@@ -985,7 +1045,8 @@ handle	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0
 handle	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^    handle: HandleUntyped,$/;"	m	struct:RefMutAny
 handle	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^    pub fn handle(&self) -> Handle<T> {$/;"	P	implementation:RefMut
 handle	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^    pub fn handle<T>(&self) -> Handle<T> {$/;"	P	implementation:RefMutAny
-handle_input	/home/actuday/dev/xando/src/maingame/mod.rs	/^    pub fn handle_input(&mut self) {$/;"	P	implementation:GameState
+handle_input	/home/actuday/dev/xando/src/game/mod.rs	/^    pub fn handle_input(&mut self) {$/;"	P	implementation:GameState
+handle_input	/home/actuday/dev/xando/src/gui/button.rs	/^    fn handle_input(&mut self) {$/;"	P	implementation:Button
 hash	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^mod hash;$/;"	n
 hash	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/hash.rs	/^macro_rules! hash {$/;"	M
 height	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/text.rs	/^    pub height: f32,$/;"	m	struct:TextDimensions
@@ -1066,11 +1127,16 @@ into	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3
 into	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^    fn into(self) -> Vertex {$/;"	P	implementation:VertexInterop
 into	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^    fn into(self) -> VertexInterop {$/;"	P	implementation:Vertex
 is_depth_test_enabled	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^    pub fn is_depth_test_enabled(&self) -> bool {$/;"	P	implementation:QuadGl
+is_disabled	/home/actuday/dev/xando/src/gui/button.rs	/^    is_disabled: bool,$/;"	m	struct:Button
 is_done	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/coroutines.rs	/^    pub fn is_done(&self) -> bool {$/;"	P	implementation:Coroutine
 is_dragging	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    pub fn is_dragging(&self) -> bool {$/;"	P	implementation:Ui
+is_fn	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/proxy.rs	/^    pub(crate) fn is_fn(&self) -> bool {$/;"	P	implementation:ProxyType
 is_focused	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    fn is_focused(&self, id: Id) -> bool {$/;"	P	implementation:Ui
-is_hovered	/home/actuday/dev/xando/src/gui/mod.rs	/^    is_hovered: bool,$/;"	m	struct:Button
-is_hovered	/home/actuday/dev/xando/src/maingame/mod.rs	/^    is_hovered: bool,$/;"	m	struct:Button
+is_hovered	/home/actuday/dev/xando/src/game/mod.rs	/^    is_hovered: bool,$/;"	m	struct:Button
+is_hovered	/home/actuday/dev/xando/src/gui/button.rs	/^    is_hovered: bool,$/;"	m	struct:Button
+is_hovered	/home/actuday/dev/xando/src/main.rs	/^fn is_hovered(button: &mut Button) {$/;"	f
+is_hovered_callback	/home/actuday/dev/xando/src/gui/button.rs	/^    is_hovered_callback: fn(&mut Button),$/;"	m	struct:Button
+is_hovered_callback	/home/actuday/dev/xando/src/gui/button.rs	/^    pub fn is_hovered_callback(self, is_hovered_callback: fn(&mut Button)) -> Self {$/;"	P	implementation:Button
 is_input_hovered	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    fn is_input_hovered(&self, id: Id) -> bool {$/;"	P	implementation:Ui
 is_key_down	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/input.rs	/^pub fn is_key_down(key_code: KeyCode) -> bool {$/;"	f
 is_key_pressed	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/input.rs	/^pub fn is_key_pressed(key_code: KeyCode) -> bool {$/;"	f
@@ -1083,6 +1149,13 @@ is_mouse_captured	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/
 is_mouse_down	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/input.rs	/^    pub fn is_mouse_down(&self) -> bool {$/;"	P	implementation:Input
 is_mouse_down	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/input.rs	/^    pub(crate) is_mouse_down: bool,$/;"	m	struct:Input
 is_mouse_over	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    pub fn is_mouse_over(&self, mouse_position: Vec2) -> bool {$/;"	P	implementation:Ui
+is_not_hovered	/home/actuday/dev/xando/src/main.rs	/^fn is_not_hovered(button: &mut Button) {$/;"	f
+is_not_hovered_callback	/home/actuday/dev/xando/src/gui/button.rs	/^    is_not_hovered_callback: fn(&mut Button),$/;"	m	struct:Button
+is_not_hovered_callback	/home/actuday/dev/xando/src/gui/button.rs	/^    pub fn is_not_hovered_callback(self, is_not_hovered_callback: fn(&mut Button)) -> Self {$/;"	P	implementation:Button
+is_our_attr	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/attr.rs	/^pub(crate) fn is_our_attr(attr: &Attribute) -> bool {$/;"	f
+is_pressed	/home/actuday/dev/xando/src/main.rs	/^fn is_pressed(button: &mut Button) {$/;"	f
+is_pressed_callback	/home/actuday/dev/xando/src/gui/button.rs	/^    is_pressed_callback: fn(&mut Button),$/;"	m	struct:Button
+is_pressed_callback	/home/actuday/dev/xando/src/gui/button.rs	/^    pub fn is_pressed_callback(self, is_pressed_callback: fn(&mut Button)) -> Self {$/;"	P	implementation:Button
 is_quit_requested	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/input.rs	/^pub fn is_quit_requested() -> bool {$/;"	f
 is_simulating_mouse_with_touch	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/input.rs	/^pub fn is_simulating_mouse_with_touch() -> bool {$/;"	f
 iter	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^    fn iter(&self) -> MagicVecIterator {$/;"	P	implementation:Scene
@@ -1150,8 +1223,9 @@ load_ttf_font_from_bytes	/home/actuday/.cargo/registry/src/github.com-1ecc6299db
 log_string	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/telemetry.rs	/^pub fn log_string(string: &str) {$/;"	f
 logging	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/lib.rs	/^pub mod logging {$/;"	n
 looped	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/audio.rs	/^    pub looped: bool,$/;"	m	struct:PlaySoundParams
+lt_names	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/analyze.rs	/^        lt_names: HashSet<&'ast Ident>,$/;"	m	struct:find_suitable_param_names::IdentCollector
 main	/home/actuday/dev/xando/src/main.rs	/^async fn main() {$/;"	f
-maingame	/home/actuday/dev/xando/src/main.rs	/^mod maingame;$/;"	n
+main_menu_ui	/home/actuday/dev/xando/src/main.rs	/^fn main_menu_ui() -> Box<dyn gui::Widget> {$/;"	f
 make_font	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/text.rs	/^    fn make_font(&mut self, font_internal: FontInternal) -> Font {$/;"	P	implementation:FontsStorage
 make_pipeline	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^    fn make_pipeline($/;"	P	implementation:PipelinesStorage
 make_pipeline	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^    pub fn make_pipeline($/;"	P	implementation:QuadGl
@@ -1291,10 +1365,12 @@ new	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.
 new	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/texture.rs	/^    pub fn new(texture: Texture2D) -> Texture {$/;"	P	implementation:Texture
 new	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/tree_node.rs	/^    pub fn new<S>(id: Id, label: S) -> TreeNode<'a>$/;"	P	implementation:TreeNode
 new	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/window.rs	/^    pub fn new(id: Id, position: Vec2, size: Vec2) -> Window {$/;"	P	implementation:Window
+new	/home/actuday/dev/xando/src/game/mod.rs	/^    pub fn new(side_length: usize) -> Self {$/;"	P	implementation:GameState
+new	/home/actuday/dev/xando/src/gui/button.rs	/^    pub fn new() -> Self {$/;"	P	implementation:Button
 new	/home/actuday/dev/xando/src/gui/mod.rs	/^    pub fn new(child: Box<dyn Widget>) -> UIRoot {$/;"	P	implementation:UIRoot
-new	/home/actuday/dev/xando/src/gui/mod.rs	/^    pub fn new(geometry: Geometry, color: Color) -> Self {$/;"	P	implementation:Button
 new	/home/actuday/dev/xando/src/gui/mod.rs	/^    pub fn new(sides: Vector2) -> Self {$/;"	P	implementation:Geometry
-new	/home/actuday/dev/xando/src/maingame/mod.rs	/^    pub fn new(side_length: usize) -> Self {$/;"	P	implementation:GameState
+new	/home/actuday/dev/xando/src/gui/mod.rs	/^    pub fn new(x: f32, y: f32) -> Self {$/;"	P	implementation:Vector2
+new	/home/actuday/dev/xando/src/gui/row.rs	/^    pub fn new() -> Self {$/;"	P	implementation:Row
 new_frame	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    fn new_frame(&mut self) {$/;"	P	implementation:TabSelector
 new_frame	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    pub fn new_frame(&mut self, delta: f32) {$/;"	P	implementation:Ui
 new_frame	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/key_repeat.rs	/^    pub(crate) fn new_frame(&mut self, time: f32) {$/;"	P	implementation:KeyRepeat
@@ -1323,8 +1399,11 @@ overlaps	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad
 overlaps_rect	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/math/circle.rs	/^    pub fn overlaps_rect(&self, rect: &Rect) -> bool {$/;"	P	implementation:Circle
 painter	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    pub painter: Painter,$/;"	m	struct:Window
 painter	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/render.rs	/^mod painter;$/;"	n
+param_span	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/analyze.rs	/^fn param_span() -> Span2 {$/;"	f
 parent	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/telemetry.rs	/^    parent: *mut Zone,$/;"	m	struct:Zone
 parent	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    pub parent: Option<Id>,$/;"	m	struct:Window
+parse_our_attr	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/attr.rs	/^pub(crate) fn parse_our_attr(attr: &Attribute) -> Result<OurAttr, ()> {$/;"	f
+parse_types	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/proxy.rs	/^pub(crate) fn parse_types(args: TokenStream) -> Vec<ProxyType> {$/;"	f
 pass	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^    pass: Option<RenderPass>,$/;"	m	struct:MagicSnapshotter
 password	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/editbox.rs	/^    password: bool,$/;"	m	struct:Editbox
 password	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/editbox.rs	/^    pub fn password(self, password: bool) -> Self {$/;"	P	implementation:Editbox
@@ -1399,6 +1478,7 @@ process_input	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macr
 projection	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/camera.rs	/^    pub projection: Projection,$/;"	m	struct:Camera3D
 projection_matrix	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/lib.rs	/^    pub(crate) fn projection_matrix(&self) -> glam::Mat4 {$/;"	P	implementation:Context
 provides	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^    pub fn provides<S: std::any::Any + Copy>(&mut self, x: S) {$/;"	P	implementation:RefMut
+proxy	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/lib.rs	/^mod proxy;$/;"	n
 push_camera_state	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/camera.rs	/^pub fn push_camera_state() {$/;"	f
 push_model_matrix	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^    pub fn push_model_matrix(&mut self, matrix: glam::Mat4) {$/;"	P	implementation:QuadGl
 push_skin	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    pub fn push_skin(&mut self, skin: &Skin) {$/;"	P	implementation:Ui
@@ -1439,11 +1519,8 @@ register_click_intention	/home/actuday/.cargo/registry/src/github.com-1ecc6299db
 register_input_subscriber	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/input.rs	/^    pub fn register_input_subscriber() -> usize {$/;"	f	module:utils
 register_selectable_widget	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    pub(crate) fn register_selectable_widget(&mut self, has_focus: bool, input: &Input) -> bool /;"	P	implementation:TabSelector
 remaining_time	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/coroutines.rs	/^    pub(crate) remaining_time: f32,$/;"	m	struct:TimerDelayFuture
-remap	/home/actuday/dev/xando/src/gui/mod.rs	/^    fn remap(&mut self, geometry: &Geometry) -> Vector2 {$/;"	P	implementation:Button
-remap	/home/actuday/dev/xando/src/gui/mod.rs	/^    fn remap(&mut self, geometry: &Geometry) -> Vector2 {$/;"	P	implementation:Row
-remap	/home/actuday/dev/xando/src/gui/mod.rs	/^    fn remap(&mut self, geometry: &Geometry) -> Vector2;$/;"	P	interface:Widget
-remap	/home/actuday/dev/xando/src/gui/mod.rs	/^    pub fn remap(&mut self) {$/;"	P	implementation:UIRoot
-remap	/home/actuday/dev/xando/src/maingame/mod.rs	/^    pub fn remap(&mut self) {$/;"	P	implementation:GameState
+remap	/home/actuday/dev/xando/src/game/mod.rs	/^    pub fn remap(&mut self) {$/;"	P	implementation:GameState
+remove_our_attrs	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/attr.rs	/^pub(crate) fn remove_our_attrs(trait_def: &mut syn::ItemTrait) {$/;"	f
 render	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    pub fn render(&mut self, draw_list: &mut Vec<DrawList>) {$/;"	P	implementation:Ui
 render	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^mod render;$/;"	n
 render_command	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/render/mesh_rasterizer.rs	/^pub(crate) fn render_command(draw_lists: &mut Vec<DrawList>, command: DrawCommand) {$/;"	f
@@ -1468,7 +1545,7 @@ reset	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.
 reset	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/cursor.rs	/^    pub fn reset(&mut self) {$/;"	P	implementation:Cursor
 reset	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/input.rs	/^    pub fn reset(&mut self) {$/;"	P	implementation:Input
 resize_event	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/lib.rs	/^    fn resize_event(&mut self, width: f32, height: f32) {$/;"	P	implementation:Stage
-resized	/home/actuday/dev/xando/src/main.rs	/^fn resized(state: &GameState) -> bool {$/;"	f
+resized	/home/actuday/dev/xando/src/gui/mod.rs	/^    pub fn resized(&self) -> bool {$/;"	P	implementation:UIRoot
 resume	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/audio.rs	/^        pub fn resume(&mut self) {}$/;"	P	implementation:dummy_audio::AudioContext
 resume	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/audio.rs	/^    pub fn resume(&mut self) {$/;"	P	implementation:AudioContext
 resume	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/exec.rs	/^pub(crate) fn resume(future: &mut Pin<Box<dyn Future<Output = ()>>>) -> bool {$/;"	f
@@ -1485,6 +1562,7 @@ root_window	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroq
 rotation	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/camera.rs	/^    pub rotation: f32,$/;"	m	struct:Camera2D
 rotation	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/texture.rs	/^    pub rotation: f32,$/;"	m	struct:DrawTextureParams
 row	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/animation.rs	/^    pub row: u32,$/;"	m	struct:Animation
+row	/home/actuday/dev/xando/src/gui/mod.rs	/^pub mod row;$/;"	n
 same_line	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    pub fn same_line(&mut self, x: f32) {$/;"	P	implementation:Ui
 same_line	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    pub fn same_line(&mut self, x: f32) {$/;"	P	implementation:Window
 sample_gpu_queries	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/telemetry.rs	/^pub fn sample_gpu_queries() {$/;"	f
@@ -1497,8 +1575,8 @@ scale_wheel	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroq
 scene	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental.rs	/^pub mod scene;$/;"	n
 scene_allocated_memory	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/telemetry.rs	/^pub fn scene_allocated_memory() -> usize {$/;"	f
 scissor	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^    pub fn scissor(&mut self, clip: Option<(i32, i32, i32, i32)>) {$/;"	P	implementation:QuadGl
-scr_height	/home/actuday/dev/xando/src/maingame/mod.rs	/^    pub scr_height: f32,$/;"	m	struct:GameState
-scr_width	/home/actuday/dev/xando/src/maingame/mod.rs	/^    pub scr_width: f32,$/;"	m	struct:GameState
+scr_height	/home/actuday/dev/xando/src/game/mod.rs	/^    pub scr_height: f32,$/;"	m	struct:GameState
+scr_width	/home/actuday/dev/xando/src/game/mod.rs	/^    pub scr_width: f32,$/;"	m	struct:GameState
 screen_height	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/lib.rs	/^    screen_height: f32,$/;"	m	struct:Context
 screen_height	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/window.rs	/^pub fn screen_height() -> f32 {$/;"	f
 screen_texture	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^    screen_texture: Option<Texture2D>,$/;"	m	struct:MagicSnapshotter
@@ -1535,12 +1613,18 @@ set	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.
 set_animation	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/animation.rs	/^    pub fn set_animation(&mut self, animation: usize) {$/;"	P	implementation:AnimatedSprite
 set_camera	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/camera.rs	/^pub fn set_camera(camera: &dyn Camera) {$/;"	f
 set_camera	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^pub fn set_camera(n: usize, camera: Option<Camera2D>) {$/;"	f
+set_color	/home/actuday/dev/xando/src/gui/button.rs	/^    pub fn set_color(&mut self, color: Color) {$/;"	P	implementation:Button
 set_cursor_grab	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/input.rs	/^pub fn set_cursor_grab(grab: bool) {$/;"	f
 set_default_camera	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/camera.rs	/^pub fn set_default_camera() {$/;"	f
 set_default_skin	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    pub fn set_default_skin(&mut self, _skin: Skin) {$/;"	P	implementation:Ui
 set_filter	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/texture.rs	/^    pub fn set_filter(&self, filter_mode: FilterMode) {$/;"	P	implementation:Texture2D
 set_frame	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/animation.rs	/^    pub fn set_frame(&mut self, frame: u32) {$/;"	P	implementation:AnimatedSprite
+set_geometry	/home/actuday/dev/xando/src/gui/button.rs	/^    pub fn set_geometry(&mut self, geometry: Geometry) {$/;"	P	implementation:Button
 set_input_focus	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    pub fn set_input_focus(&mut self, id: Id) {$/;"	P	implementation:Ui
+set_is_disabled	/home/actuday/dev/xando/src/gui/button.rs	/^    pub fn set_is_disabled(&mut self, is_disabled: bool) {$/;"	P	implementation:Button
+set_is_hovered_callback	/home/actuday/dev/xando/src/gui/button.rs	/^    pub fn set_is_hovered_callback(&mut self, is_hovered_callback: fn(&mut Button)) {$/;"	P	implementation:Button
+set_is_not_hovered_callback	/home/actuday/dev/xando/src/gui/button.rs	/^    pub fn set_is_not_hovered_callback(&mut self, is_not_hovered_callback: fn(&mut Button)) {$/;"	P	implementation:Button
+set_is_pressed_callback	/home/actuday/dev/xando/src/gui/button.rs	/^    pub fn set_is_pressed_callback(&mut self, is_pressed_callback: fn(&mut Button)) {$/;"	P	implementation:Button
 set_manual_poll	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/coroutines.rs	/^    pub fn set_manual_poll(&mut self) {$/;"	P	implementation:Coroutine
 set_panic_handler	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/window.rs	/^pub fn set_panic_handler<T, F>(future: F)$/;"	f
 set_pc_assets_folder	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/file.rs	/^pub fn set_pc_assets_folder(path: &str) {$/;"	f
@@ -1558,9 +1642,10 @@ set_volume	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroqu
 shader	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^mod shader {$/;"	n
 shaders	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/material.rs	/^pub mod shaders {$/;"	n
 shapes	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/lib.rs	/^pub mod shapes;$/;"	n
+should_keep_default_for	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/gen.rs	/^fn should_keep_default_for(m: &TraitItemMethod, proxy_type: &ProxyType) -> bool {$/;"	f
 show_mouse	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/input.rs	/^pub fn show_mouse(shown: bool) {$/;"	f
-side	/home/actuday/dev/xando/src/maingame/mod.rs	/^    side: f32,$/;"	m	struct:Button
-side_length	/home/actuday/dev/xando/src/maingame/mod.rs	/^    side_length: usize,$/;"	m	struct:GameState
+side	/home/actuday/dev/xando/src/game/mod.rs	/^    side: f32,$/;"	m	struct:Button
+side_length	/home/actuday/dev/xando/src/game/mod.rs	/^    side_length: usize,$/;"	m	struct:GameState
 sides	/home/actuday/dev/xando/src/gui/mod.rs	/^    pub sides: Vector2,$/;"	m	struct:Geometry
 simulate_mouse_with_touch	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/input.rs	/^pub fn simulate_mouse_with_touch(option: bool) {$/;"	f
 simulate_mouse_with_touch	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/lib.rs	/^    simulate_mouse_with_touch: bool,$/;"	m	struct:Context
@@ -1604,7 +1689,7 @@ start_y	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-
 state	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/state_machine.rs	/^    pub fn state(&self) -> usize {$/;"	P	implementation:StateMachine
 state	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/state_machine.rs	/^    pub fn state(&self) -> usize {$/;"	P	implementation:StateMachineOwned
 state	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^    state: GlState,$/;"	m	struct:QuadGl
-state	/home/actuday/dev/xando/src/maingame/mod.rs	/^    state: PlayerState,$/;"	m	struct:Cell
+state	/home/actuday/dev/xando/src/game/mod.rs	/^    state: PlayerState,$/;"	m	struct:Cell
 state_machine	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental.rs	/^pub mod state_machine;$/;"	n
 states	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/state_machine.rs	/^    states: Vec<State<T>>,$/;"	m	struct:StateMachineOwned
 step	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/drag.rs	/^    step: f32,$/;"	m	struct:Drag
@@ -1664,6 +1749,10 @@ texture_batcher	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/ma
 textures	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/material.rs	/^    pub textures: Vec<String>,$/;"	m	struct:MaterialParams
 textures	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^    textures: Vec<String>,$/;"	m	struct:PipelineExt
 textures_data	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^    textures_data: BTreeMap<String, Texture>,$/;"	m	struct:PipelineExt
+tick	/home/actuday/dev/xando/src/gui/button.rs	/^    fn tick(&mut self) {$/;"	P	implementation:Button
+tick	/home/actuday/dev/xando/src/gui/mod.rs	/^    fn tick(&mut self);$/;"	P	interface:Widget
+tick	/home/actuday/dev/xando/src/gui/mod.rs	/^    pub fn tick(&mut self) {$/;"	P	implementation:UIRoot
+tick	/home/actuday/dev/xando/src/gui/row.rs	/^    fn tick(&mut self) {$/;"	P	implementation:Row
 tile_height	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/animation.rs	/^    tile_height: f32,$/;"	m	struct:AnimatedSprite
 tile_width	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/animation.rs	/^    tile_width: f32,$/;"	m	struct:AnimatedSprite
 time	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/animation.rs	/^    time: f32,$/;"	m	struct:AnimatedSprite
@@ -1679,7 +1768,7 @@ to	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.1
 to_change	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    to_change: Option<isize>,$/;"	m	struct:TabSelector
 to_typed	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^    pub fn to_typed<T>(self) -> RefMut<T> {$/;"	P	implementation:RefMutAny
 to_vec	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/color.rs	/^    pub fn to_vec(&self) -> glam::Vec4 {$/;"	P	implementation:Color
-toggle_player	/home/actuday/dev/xando/src/maingame/mod.rs	/^    fn toggle_player(&mut self) {$/;"	P	implementation:GameState
+toggle_player	/home/actuday/dev/xando/src/game/mod.rs	/^    fn toggle_player(&mut self) {$/;"	P	implementation:GameState
 top	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/math/rect.rs	/^    pub fn top(&self) -> f32 {$/;"	P	implementation:Rect
 top	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/math/rect.rs	/^    pub top: f32,$/;"	m	struct:RectOffset
 top	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    fn top(&self) -> &Skin {$/;"	P	implementation:StyleStack
@@ -1699,6 +1788,7 @@ try_get	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-
 try_get_mut	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/collections/storage.rs	/^pub fn try_get_mut<T: Any>() -> Option<impl DerefMut<Target = T>> {$/;"	f
 try_get_node	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^pub fn try_get_node<T: Node>(handle: Handle<T>) -> Option<RefMut<T>> {$/;"	f
 tweens	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/coroutines.rs	/^pub mod tweens {$/;"	n
+ty_names	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/analyze.rs	/^        ty_names: HashSet<&'ast Ident>,$/;"	m	struct:find_suitable_param_names::IdentCollector
 u32	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/drag.rs	/^impl Num for u32 {}$/;"	c
 u8	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/color.rs	/^impl Into<Color> for [u8; 4] {$/;"	c
 ui	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/lib.rs	/^pub mod ui;$/;"	n
@@ -1781,6 +1871,10 @@ viewport	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad
 viewport	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/quad_gl.rs	/^    viewport: Option<(i32, i32, i32, i32)>,$/;"	m	struct:GlState
 virtual_drop	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^    virtual_drop: *const fn(*mut ()),$/;"	m	struct:Cell
 virtual_drop	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^fn virtual_drop<T: Node + 'static>(data: *mut ()) {$/;"	f
+visit_block	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/analyze.rs	/^        fn visit_block(&mut self, _: &'ast Block) {}$/;"	P	implementation:find_suitable_param_names::IdentCollector
+visit_ident	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/analyze.rs	/^        fn visit_ident(&mut self, i: &'ast Ident) {$/;"	P	implementation:find_suitable_param_names::IdentCollector
+visit_lifetime	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/analyze.rs	/^        fn visit_lifetime(&mut self, lt: &'ast Lifetime) {$/;"	P	implementation:find_suitable_param_names::IdentCollector
+visit_trait_item_mut	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_impl-0.5.0/src/attr.rs	/^        fn visit_trait_item_mut(&mut self, item: &mut TraitItem) {$/;"	P	implementation:remove_our_attrs::AttrRemover
 volume	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/audio.rs	/^    pub volume: f32,$/;"	m	struct:PlaySoundParams
 vtable	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^    vtable: *mut (),$/;"	m	struct:Cell
 vtable	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/experimental/scene.rs	/^    vtable: *mut (),$/;"	m	struct:RefMutAny
@@ -1812,18 +1906,18 @@ window_style	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macro
 window_titlebar_style	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/style.rs	/^    pub window_titlebar_style: Style,$/;"	m	struct:Skin
 windows	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    windows: HashMap<Id, Window>,$/;"	m	struct:Ui
 windows_focus_order	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui.rs	/^    windows_focus_order: Vec<Id>,$/;"	m	struct:Ui
-won	/home/actuday/dev/xando/src/maingame/mod.rs	/^    pub won: PlayerState,$/;"	m	struct:GameState
+won	/home/actuday/dev/xando/src/game/mod.rs	/^    pub won: PlayerState,$/;"	m	struct:GameState
 word_delimiter	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/widgets/editbox/text_editor.rs	/^    pub fn word_delimiter(character: char) -> bool {$/;"	P	implementation:EditboxState
 world_to_screen	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/camera.rs	/^    pub fn world_to_screen(&self, point: Vec2) -> Vec2 {$/;"	P	implementation:Camera2D
 x	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/math/circle.rs	/^    x: f32,$/;"	m	struct:Circle
 x	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/math/rect.rs	/^    pub x: f32,$/;"	m	struct:Rect
 x	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/cursor.rs	/^    pub x: f32,$/;"	m	struct:Cursor
+x	/home/actuday/dev/xando/src/game/mod.rs	/^    x: f32,$/;"	m	struct:Button
 x	/home/actuday/dev/xando/src/gui/mod.rs	/^    pub x: f32,$/;"	m	struct:Vector2
-x	/home/actuday/dev/xando/src/maingame/mod.rs	/^    x: f32,$/;"	m	struct:Button
 y	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/math/circle.rs	/^    y: f32,$/;"	m	struct:Circle
 y	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/math/rect.rs	/^    pub y: f32,$/;"	m	struct:Rect
 y	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/ui/cursor.rs	/^    pub y: f32,$/;"	m	struct:Cursor
+y	/home/actuday/dev/xando/src/game/mod.rs	/^    y: f32,$/;"	m	struct:Button
 y	/home/actuday/dev/xando/src/gui/mod.rs	/^    pub y: f32,$/;"	m	struct:Vector2
-y	/home/actuday/dev/xando/src/maingame/mod.rs	/^    y: f32,$/;"	m	struct:Button
 zones	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/telemetry.rs	/^    pub zones: Vec<Zone>,$/;"	m	struct:Frame
 zoom	/home/actuday/.cargo/registry/src/github.com-1ecc6299db9ec823/macroquad-0.3.10/src/camera.rs	/^    pub zoom: Vec2,$/;"	m	struct:Camera2D

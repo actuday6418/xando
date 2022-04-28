@@ -9,4 +9,8 @@ edition = "2018"
 "android:screenOrientation" = "userLandscape"
 
 [dependencies]
-macroquad="*"
+macroquad = "*"
+auto_impl = "*"
+
+[features]
+debug_draw = []
