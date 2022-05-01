@@ -8,8 +8,8 @@ keywords = ["gamedev", "graphics", "gui"]
 description = "A GUI system that works exclusively with percentages and widget trees"
 
 [dependencies]
-macroquad = "*"
-auto_impl = "*"
+macroquad = "0.3.16"
+auto_impl = "0.5.0"
 
 [features]
 debug_draw = []
