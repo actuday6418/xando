@@ -2,6 +2,10 @@
 name = "mcgooey"
 version = "0.1.0"
 edition = "2018"
+license = "GPL-3.0"
+repository = "https://github.com/actuday6418/xando"
+keywords = ["gamedev", "graphics", "gui"]
+description = "A GUI system that works exclusively with percentages and widget trees"
 
 [dependencies]
 macroquad = "*"
