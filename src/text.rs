@@ -10,7 +10,9 @@ pub struct Text {
     font_size: u16,
     geometry: Geometry,
     color: Color,
-    resize_to_parent: bool,
+    _resize_to_parent: bool,
+    id: u16,
+    build: bool,
 }
 
 impl Default for Text {
@@ -19,9 +21,11 @@ impl Default for Text {
             offset: Vector2::from(0, 0),
             geometry: Geometry::new(Vector2::new(100f32, 100f32)),
             color: WHITE,
-            resize_to_parent: true,
+            _resize_to_parent: true,
             text: String::new(),
             font_size: 10,
+            id: 0,
+            build: false,
         }
     }
 }
@@ -35,19 +39,33 @@ impl Text {
         Text { color, ..self }
     }
 
-    pub fn resize_to_parent(self, resize_to_parent: bool) -> Self {
+    pub fn resize_to_parent(self, _resize_to_parent: bool) -> Self {
         Text {
-            resize_to_parent,
+            _resize_to_parent,
             ..self
         }
     }
 
-    pub fn text(self, text: String) -> Self {
-        Text { text, ..self }
+    pub fn text(self, text: &str) -> Self {
+        Text {
+            text: String::from(text),
+            ..self
+        }
+    }
+
+    pub fn id(self, id: u16) -> Self {
+        Self { id, ..self }
     }
 }
 
 impl Widget for Text {
+    fn get_build(&self) -> bool {
+        self.build
+    }
+    fn get_id(&self) -> u16 {
+        self.id
+    }
+
     fn build(&mut self, geometry: &Geometry, margins: Option<Directions2D>) -> Vector2 {
         //Find original dimensions of parent and
         //calculate dimensions of this widget from parent dimensions and positions from margins
@@ -74,7 +92,6 @@ impl Widget for Text {
             self.offset.y = self.geometry.abs_sides.y / 2f32 - text_dimensions.height / 2f32;
             width_ratio as u16
         };
-        println!("{} {}", self.offset.x, self.offset.y);
 
         let margins = margins.unwrap_or(Directions2D {
             top: geometry.abs_sides.y * self.geometry.margins.top / 100f32,

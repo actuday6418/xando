@@ -1,33 +1,39 @@
 /*
-This file is a copy of row.rs, with appopriate changes made for redering vertically instead of horizontally. Changes not pertaining
-to this difference must be made in row.rs as well.
+This file is a copy of column.rs, with appopriate changes made for redering horizontally instead of vertically. Changes not pertaining
+to this difference must be made in column.rs as well.
 */
 
-use crate::gui::{Directions2D, Geometry, Vector2, Widget};
+use super::{Directions2D, Geometry, Vector2, Widget};
 use macroquad::prelude::*;
 
-pub struct Column {
+pub struct Row {
     children: Vec<Box<dyn Widget>>,
     geometry: Geometry,
+    id: u16,
 }
 
-impl Column {
+impl Row {
     pub fn new() -> Self {
-        Column {
+        Row {
             children: Vec::new(),
             geometry: Geometry::new(Vector2 {
                 x: 100f32,
                 y: 100f32,
             }),
+            id: 0,
         }
     }
 
     pub fn children(self, children: Vec<Box<dyn Widget>>) -> Self {
-        Column { children, ..self }
+        Row { children, ..self }
     }
 
     pub fn geometry(self, geometry: Geometry) -> Self {
-        Column { geometry, ..self }
+        Row { geometry, ..self }
+    }
+
+    pub fn id(self, id: u16) -> Self {
+        Self { id, ..self }
     }
 
     #[cfg(feature = "debug_draw")]
@@ -49,7 +55,18 @@ impl Column {
     }
 }
 
-impl Widget for Column {
+impl Widget for Row {
+    fn get_build(&self) -> bool {
+        for child in &self.children {
+            if child.get_build() {
+                return true;
+            }
+        }
+        false
+    }
+    fn get_id(&self) -> u16 {
+        self.id
+    }
     fn draw(&self) {
         #[cfg(feature = "debug_draw")]
         self.debug_draw();
@@ -84,69 +101,68 @@ impl Widget for Column {
         });
         self.geometry.abs_margins = margins;
         let tl = Vector2 {
-            x: geometry.top_left.x + margins.left,
-            y: geometry.top_left.y + margins.top,
+            x: geometry.top_left_curr.x + margins.left,
+            y: geometry.top_left_curr.y + margins.top,
         };
         self.geometry.top_left = tl;
+        self.geometry.top_left_curr = self.geometry.top_left;
 
         //calculate spacing for children and verify that there is no overflow
-
         //records space currently occupied by widget's children, used to calculate margins
         let mut occupied_space: f32 = 0f32;
         let count: i32 = self.children.len() as i32 + 1;
         for child in self.children.iter() {
-            occupied_space += child.get_side().y;
+            occupied_space += child.get_side().x;
         }
         if occupied_space > 100f32 {
             panic!("Overflow! widgets exceeded 100!");
         }
         let mut child_margins = Directions2D::new(
-            (100f32 - occupied_space) * dimensions.y / 100f32,
-            (100f32 - occupied_space) * dimensions.y / 100f32,
             0f32,
             0f32,
+            (100f32 - occupied_space) * dimensions.x / 100f32,
+            (100f32 - occupied_space) * dimensions.x / 100f32,
         );
 
         //divide total margin by count to get margin for each widget
-        child_margins.top /= count as f32;
-        child_margins.bottom /= count as f32;
+        child_margins.left /= count as f32;
+        child_margins.right /= count as f32;
 
         let mut it = self.children.iter_mut();
-        self.geometry.top_left_curr = self.geometry.top_left;
 
         if let Some(child) = it.next() {
-            let h_margin = (100f32 - child.get_side().x) * dimensions.x / 200f32;
+            let v_margin = (100f32 - child.get_side().y) * dimensions.y / 200f32;
 
-            self.geometry.top_left_curr.y = child
+            self.geometry.top_left_curr.x = child
                 .build(
                     &self.geometry,
                     Some(Directions2D {
-                        left: h_margin,
-                        right: h_margin,
+                        top: v_margin,
+                        bottom: v_margin,
                         ..child_margins
                     }),
                 )
-                .y;
+                .x;
         }
         while let Some(child) = it.next() {
-            let h_margin = (100f32 - child.get_side().x) * dimensions.x / 200f32;
+            let v_margin = (100f32 - child.get_side().y) * dimensions.y / 200f32;
 
-            self.geometry.top_left_curr.y = child
+            self.geometry.top_left_curr.x = child
                 .build(
                     &self.geometry,
                     Some(Directions2D {
-                        top: 0f32,
-                        left: h_margin,
-                        right: h_margin,
+                        left: 0f32,
+                        top: v_margin,
+                        bottom: v_margin,
                         ..child_margins
                     }),
                 )
-                .y;
+                .x;
         }
-        //return TL offset
+        //return TL offsetted
         Vector2 {
-            x: margins.left + dimensions.x + margins.right,
-            y: margins.top + dimensions.y + margins.bottom,
+            x: geometry.top_left_curr.x + margins.left + dimensions.x + margins.right,
+            y: geometry.top_left_curr.y + margins.top + dimensions.y + margins.bottom,
         }
     }
 }

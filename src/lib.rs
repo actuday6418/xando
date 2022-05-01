@@ -1,3 +1,4 @@
+pub extern crate macroquad;
 use macroquad::prelude::*;
 pub mod button;
 pub mod column;
@@ -6,14 +7,30 @@ pub mod text;
 
 use auto_impl::auto_impl;
 
+use self::row::Row;
+
+pub trait App {
+    fn tick(&mut self);
+}
+
 ///Root of all other widgets. Represents the game window geometry.
 pub struct UIRoot {
     ///Represents geometry of the window
-    geometry: Geometry,
+    pub geometry: Geometry,
     ///Top most widget in the current view
     child: Box<dyn Widget>,
 }
 
+impl Default for UIRoot {
+    fn default() -> Self {
+        UIRoot {
+            geometry: Geometry::new(Vector2::from(0, 0)),
+            child: Box::new(Row::new()),
+        }
+    }
+}
+
+// High level abstraction representing a single UI view
 impl UIRoot {
     #[cfg(feature = "debug_draw")]
     pub fn debug_draw(&self) {
@@ -29,8 +46,13 @@ impl UIRoot {
     }
 
     pub fn tick(&mut self) {
+        // redraw if any child in the widget tree requests a rebuild or window is resized
+        if self.child.get_build() || self.resized() {
+            self.build();
+        }
         self.child.tick();
     }
+
     pub fn new(child: Box<dyn Widget>) -> UIRoot {
         UIRoot {
             geometry: Geometry {
@@ -177,4 +199,12 @@ pub trait Widget {
 
     /// Get widget's absolute dimensions
     fn get_side(&self) -> Vector2;
+
+    /// Get the widget's ID. This has to be set manually by the user using the id method of the widget,
+    ///and can be used to uniquely identify the widget when communicating with external functions like in the button callbacks.
+    fn get_id(&self) -> u16;
+
+    /// A widget may need an explicit rebuild even when the window isn't resized because
+    /// for example it just got a new child that needs building
+    fn get_build(&self) -> bool;
 }
