@@ -9,7 +9,7 @@ edition = "2018"
 "android:screenOrientation" = "userLandscape"
 
 [dependencies]
-mcgooey = "0.1.0"
+mcgooey = "0.1.1"
 
 [features]
 debug_draw = []
