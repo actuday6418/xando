@@ -63,6 +63,11 @@ async fn main() {
 # Xando 
 Xando is a Tic Tac Toe implementation using McGooey, which showcases some common scenarios like mutating external state on events like a button click, etc. Xando, through McGooey, is able to easily implement a variable number of cells in the game.
         
+## Xando running on Linux
+        
+![xando](https://user-images.githubusercontent.com/56124831/166473452-e04e5dfd-4a7b-4727-83cd-90523f668ea1.gif)
+
+        
 # Building
 Building for the host platform is the usual `cargo build`
 
