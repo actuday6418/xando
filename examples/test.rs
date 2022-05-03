@@ -3,13 +3,13 @@ use mcgooey::{
     column::Column,
     macroquad::{self, prelude::*},
     text::Text,
-    Geometry, UIRoot, Vector2,
+    Geometry, Vector2, View,
 };
 use std::cell::RefCell;
 use std::rc::Rc;
 
-fn main_menu_ui(state: Rc<RefCell<State>>) -> UIRoot {
-    UIRoot::new(
+fn main_menu_ui(state: Rc<RefCell<State>>) -> View {
+    View::new(
         Column::new()
             .push(
                 Button::default(state.clone())
