@@ -12,13 +12,14 @@ View::new(
         Column::new().push(
             Button::default(state.clone())
                 .color(WHITE)
-                .is_pressed_callback(|_button: &mut Button<()>| {
+                .is_pressed_callback(|_button: &mut Button<()>| {       // Specify the type of the external state variable as a type parameter
                     panic!("EXIT");
                 })
                 .child(
                     Text::default()
                         .text("Click me to exit")
-                        .geometry(Geometry::new(Vector2::from(90, 90)))
+                        .geometry(Geometry::new(Vector2::from(90, 90))) // that is, occupy 90% of parents width and height. 
+                                                                        // 10% of vertical and horizontal padding are added automatically
                         .color(RED),
                 ),
         ),
@@ -45,7 +46,7 @@ A View is a single screen with a bunch of widgets defining what it looks like. E
         ),
     )
 }
-  
+        
 #[macroquad::main("XandO")]
 async fn main() {
     let mut ui = ui(Rc::new(RefCell::new(())));
