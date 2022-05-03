@@ -28,6 +28,11 @@ impl Column {
         Column { children, ..self }
     }
 
+    pub fn push<T: Widget + 'static>(mut self, child: T) -> Self {
+        self.children.push(Box::new(child));
+        self
+    }
+
     pub fn geometry(self, geometry: Geometry) -> Self {
         Column { geometry, ..self }
     }

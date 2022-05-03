@@ -76,9 +76,9 @@ impl<T> Button<T> {
         }
     }
 
-    pub fn child(self, child: Box<dyn Widget>) -> Button<T> {
+    pub fn child<T2: Widget + 'static>(self, child: T2) -> Button<T> {
         Button {
-            child: Some(child),
+            child: Some(Box::new(child)),
             ..self
         }
     }

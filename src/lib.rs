@@ -53,7 +53,7 @@ impl UIRoot {
         self.child.tick();
     }
 
-    pub fn new(child: Box<dyn Widget>) -> UIRoot {
+    pub fn new<T: Widget + 'static>(child: T) -> UIRoot {
         UIRoot {
             geometry: Geometry {
                 top_left: Vector2 { x: 0f32, y: 0f32 },
@@ -73,7 +73,7 @@ impl UIRoot {
                     right: 0f32,
                 },
             },
-            child,
+            child: Box::new(child),
         }
     }
 
