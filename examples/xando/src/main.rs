@@ -20,7 +20,8 @@ struct State {
 }
 
 fn main_menu_ui(state: Rc<RefCell<State>>) -> View {
-    View::new(Box::new(Column::new().children(vec![Box::new(
+    View::new(
+        Column::new().push(
             Button::default(state)
                 .geometry(Geometry::new(Vector2::from(90, 40)))
                 .color(WHITE)
@@ -33,13 +34,14 @@ fn main_menu_ui(state: Rc<RefCell<State>>) -> View {
                 .is_not_hovered_callback(|button: &mut Button<State>| {
                     button.set_color(WHITE);
                 })
-                .child(Box::new(
+                .child(
                     Text::default()
                         .text("Click here to start playing")
                         .geometry(Geometry::new(Vector2::from(90, 90)))
                         .color(RED),
-                )),
-        )])))
+                ),
+        ),
+    )
 }
 
 #[macroquad::main("XandO")]

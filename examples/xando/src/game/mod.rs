@@ -1,7 +1,5 @@
 use mcgooey::macroquad::prelude::*;
-use mcgooey::{
-    button::Button, column::Column, row::Row, text::Text, Geometry, UIRoot, Vector2, Widget,
-};
+use mcgooey::{button::Button, column::Column, row::Row, text::Text, Geometry, Vector2, View};
 use std::{cell::RefCell, rc::Rc};
 
 #[derive(Clone, PartialEq, Debug)]
@@ -177,18 +175,19 @@ impl GameState {
     }
 }
 
-pub fn game_ui(state: Rc<RefCell<GameState>>) -> UIRoot {
+pub fn game_ui(state: Rc<RefCell<GameState>>) -> View {
     //represents each horizontal line of cells
-    let mut rows: Vec<Box<dyn Widget>> = Vec::new();
+    let mut column = Column::new();
 
     //calculate the precentage width and height to be given to each cell, as a part in the whole 100% of width or height
     let side_percentage = 100 / state.borrow().side_length;
 
     //add buttons to rows and rows to the column
     for i in 0..state.borrow().side_length {
-        let mut children: Vec<Box<dyn Widget>> = Vec::new();
+        let mut row =
+            Row::new().geometry(Geometry::new(Vector2::new(100f32, side_percentage as f32)));
         for j in 0..state.borrow().side_length {
-            children.push(Box::new(
+            row = row.push(
                 Button::default(state.clone())
                     .id((i * state.borrow().side_length + j) as u16)
                     .color(BEIGE)
@@ -222,12 +221,9 @@ pub fn game_ui(state: Rc<RefCell<GameState>>) -> UIRoot {
                         ));
                         button.set_build(true);
                     }),
-            ));
+            );
         }
-        let row = Row::new()
-            .children(children)
-            .geometry(Geometry::new(Vector2::new(100f32, side_percentage as f32)));
-        rows.push(Box::new(row));
+        column = column.push(row);
     }
-    UIRoot::new(Box::new(Column::new().children(rows)))
+    View::new(column)
 }
