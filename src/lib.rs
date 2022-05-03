@@ -14,16 +14,16 @@ pub trait App {
 }
 
 ///Root of all other widgets. Represents the game window geometry.
-pub struct UIRoot {
+pub struct View {
     ///Represents geometry of the window
     pub geometry: Geometry,
     ///Top most widget in the current view
     child: Box<dyn Widget>,
 }
 
-impl Default for UIRoot {
+impl Default for View {
     fn default() -> Self {
-        UIRoot {
+        View {
             geometry: Geometry::new(Vector2::from(0, 0)),
             child: Box::new(Row::new()),
         }
@@ -31,7 +31,7 @@ impl Default for UIRoot {
 }
 
 // High level abstraction representing a single UI view
-impl UIRoot {
+impl View {
     #[cfg(feature = "debug_draw")]
     pub fn debug_draw(&self) {
         draw_circle(0f32, 0f32, 20f32, RED);
@@ -53,8 +53,8 @@ impl UIRoot {
         self.child.tick();
     }
 
-    pub fn new<T: Widget + 'static>(child: T) -> UIRoot {
-        UIRoot {
+    pub fn new<T: Widget + 'static>(child: T) -> View {
+        View {
             geometry: Geometry {
                 top_left: Vector2 { x: 0f32, y: 0f32 },
                 top_left_curr: Vector2 { x: 0f32, y: 0f32 },
