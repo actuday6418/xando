@@ -48,10 +48,10 @@ A View is a single screen with a bunch of widgets defining what it looks like. E
   
 #[macroquad::main("XandO")]
 async fn main() {
-    let mut main_menu_ui = main_menu_ui(Rc::new(RefCell::new(())));
+    let mut ui = ui(Rc::new(RefCell::new(())));
     loop {
-        main_menu_ui.tick();
-        main_menu_ui.draw();
+        ui.tick();
+        ui.draw();
 
         next_frame().await
     }
