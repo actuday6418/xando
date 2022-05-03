@@ -62,3 +62,22 @@ async fn main() {
 
 # Xando 
 Xando is a Tic Tac Toe implementation using McGooey, which showcases some common scenarios like mutating external state on events like a button click, etc. Xando, through McGooey, is able to easily implement a variable number of cells in the game.
+        
+# Building
+Building for the host platform is the usual `cargo build`
+
+## For Android
+1. Start by setting up a docker environment:
+`docker pull notfl3/cargo-apk`
+        
+2. cd into your project's root (location of Cargo.toml) and to enter the Docker container's shell:
+```
+docker run --rm -v $(pwd):/root/src -w /root/src -it notfl3/cargo-apk /bin/bash
+```
+        
+3. Run the following commands in the shell
+`cargo update`
+`cargo quad-apk build --release`
+Your APKs should now be in `target/android-artifacts/release/apk`.
+        
+4. Look at [this](https://macroquad.rs/tutorials/android/) guide for help, and create an issue if there's trouble.
