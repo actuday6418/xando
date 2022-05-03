@@ -18,7 +18,7 @@ View::new(
                 .child(
                     Text::default()
                         .text("Click me to exit")
-                        .geometry(Geometry::new(Vector2::from(90, 90))) // that is, occupy 90% of parents width and height. 
+                        .geometry(Geometry::new(Vector2::from(90, 90))) // that is, occupy 90% of parent's width and height. 
                                                                         // 10% of vertical and horizontal padding are added automatically
                         .color(RED),
                 ),
