@@ -6,7 +6,7 @@ use mcgooey::button::Button;
 use mcgooey::column::Column;
 use mcgooey::macroquad::{self, prelude::*};
 use mcgooey::text::Text;
-use mcgooey::{Geometry, UIRoot, Vector2};
+use mcgooey::{Geometry, Vector2, View};
 
 #[derive(PartialEq, Clone, Copy)]
 ///Represents different UI sections
@@ -19,8 +19,8 @@ struct State {
     pub mode: UIMode,
 }
 
-fn main_menu_ui(state: Rc<RefCell<State>>) -> UIRoot {
-    UIRoot::new(Box::new(Column::new().children(vec![Box::new(
+fn main_menu_ui(state: Rc<RefCell<State>>) -> View {
+    View::new(Box::new(Column::new().children(vec![Box::new(
             Button::default(state)
                 .geometry(Geometry::new(Vector2::from(90, 40)))
                 .color(WHITE)
